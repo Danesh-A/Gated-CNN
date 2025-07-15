@@ -1,0 +1,25 @@
+data:
+  dataset_name: "TUPAC"
+  root_dir: "D:/Research/Data"
+  normalization: "RH" #or UN
+  batch_size: 4
+  num_workers: 4
+  shuffle: true
+
+training:
+  epochs: 100
+  lr: 0.0001
+  weight_decay: 1e-4
+  scheduler:
+    step_size: 200
+    gamma: 0.96
+  early_stopping_patience: 10
+
+model:
+  architecture: UNet # or GscnnUnet4Gates or GscnnUnet5Gates
+  input_channels: 3
+  output_channels: 3
+
+logging:
+  tensorboard: true
+  log_dir: "logs/"
