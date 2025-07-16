@@ -4,12 +4,12 @@ This repository contains the models and training code for the attached thesis pr
 
 =======
 # # Repository for 3 Class Nuclei Segmentation for Histopathology Images using the GCNN Model
-##Datasets 
+# Datasets 
 TUPAC dataset used for training, testing. 
 TCGA dataset used as out of distribution dataset. 
-##Architecture 
+# Architecture 
 
-##Modifications
+# Modifications
 
-##Results
+# Results
 
