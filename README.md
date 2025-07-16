@@ -18,5 +18,7 @@ This work is inspired by [**Gated-SCNN: Gated Shape CNNs for Semantic Segmentati
 
 (3) Custom weight map based metric for clustered and overlapping regions of an image titled "Edge15" & "Nuclei15".
 # Results
-![Edge](assets/ClusteredEdgeDice.png)
 ![Images](assets/examples.png)
+
+![Edge](assets/ClusteredEdgeDice.png)
+
