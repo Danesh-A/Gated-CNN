@@ -1,6 +1,6 @@
 data:
   dataset_name: "TUPAC"
-  root_dir: "D:/Research/Data"
+  root_dir: "D:/Sample/Dir"
   normalization: "RH" #or UN
   batch_size: 4
   num_workers: 4
