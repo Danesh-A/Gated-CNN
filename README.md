@@ -10,7 +10,7 @@ The Cancer Genome Atlas (TCGA) dataset used as an independent test dataset.
 This work is inspired by [**Gated-SCNN: Gated Shape CNNs for Semantic Segmentation**](https://github.com/nv-tlabs/GSCNN).
 
 [**Original Architecture**](https://openreview.net/pdf?id=fQDGt0RJkMu)
-![test](assets/gcnn.png)
+![Model](assets/gcnn.png)
 # Modifications
 (1) Removal of gate 5 from original architecture.
 
@@ -18,3 +18,5 @@ This work is inspired by [**Gated-SCNN: Gated Shape CNNs for Semantic Segmentati
 
 (3) Custom weight map based metric for clustered and overlapping regions of an image titled "Edge15" & "Nuclei15".
 # Results
+[Edge](assets/ClusteredEdgeDice.png)
+[Images](assets/examples.png)
