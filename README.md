@@ -8,7 +8,7 @@ TCGA dataset used as out of distribution dataset.
 This work is inspired by [**Gated-SCNN: Gated Shape CNNs for Semantic Segmentation**](https://github.com/nv-tlabs/GSCNN).
 
 [**Original Architecture**](https://openreview.net/pdf?id=fQDGt0RJkMu)
-(assets/gcnn.png)
+!(assets/gcnn.png)
 # Modifications
 (1) Removal of gate 5 from original architecture.
 (2) Replaced interpolation blocks with transpose convolution.
